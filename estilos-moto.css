@@ -1,0 +1,49 @@
+*{ /* selector universa para que uno pueda aplicar su estilos*/
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+html{
+    font: size 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:rgb(221, 78, 78);
+
+}
+.main-nave  {
+    margin-top: 10px;
+    list-style: none; /*para borrar los putos de una lista*/
+    padding-left:0px;
+    background-color: #13a4a4;
+}
+.main-nave li{
+    display:inline-block;
+    justify-content: space-evenly;
+}
+.main-nave a{
+    text-align: 1000px;
+    display: inline-block;
+    color:white;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration:none ;/*para borrar las lineas del link*/
+
+}
+.main-nave a:hover {
+    color: blue;
+}
+.main-nave a:active{
+    color: red;
+}
+.main-nave a::after{
+    text-align: center;
+    content:"            |            ";
+    letter-spacing: 145px;
+}
+h1 {
+    text-align: center;
+    color: white;
+
+}
